@@ -10,7 +10,6 @@ recipes:
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
-- sprout-terminal::update_font
 - sprout-ssh::known_hosts_github
 
 # development (general)
@@ -35,7 +34,6 @@ recipes:
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
-- sprout-rubymine
 
 node_attributes:
   sprout:
@@ -87,13 +85,8 @@ node_attributes:
         - ccmenu
         - firefox
         - gitx-rowanj
-        - github
         - google-chrome
         - google-drive
         - google-hangouts
         - skype
         - textmate
-        - vagrant
-        - virtualbox
-        - xquartz
-        - xscope
